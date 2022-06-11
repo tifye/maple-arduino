@@ -8,7 +8,14 @@
             "intelliSenseMode": "windows-msvc-x64",
             "includePath": [
                 "${workspaceFolder}/**",
-                "E:\\\\Program Files (x86)\\\\Arduino\\\\libraries\\\\**"
+                "E:\\Program Files (x86)\\Arduino\\libraries\\**",
+                "E:\\Program Files (x86)\\Arduino\\hardware\\tools\\avr\\avr\\include\\avr",
+                "E:\\Program Files (x86)\\Arduino\\hardware\\tools\\avr\\avr\\include",
+                "E:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\variants\\mega",
+                "E:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr",
+                "E:\\Program Files (x86)\\Arduino\\libraries\\Makeblock\\src",
+                "E:\\Program Files (x86)\\Arduino\\libraries\\Makeblock\\src\\utility",
+                "E:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino"
             ],
             "forcedInclude": [],
             "cStandard": "c17",
@@ -16,7 +23,8 @@
             "defines": [
                 "_DEBUG",
                 "UNICODE",
-                "_UNICODE"
+                "_UNICODE",
+                "USBCON"
             ]
         },
         {
@@ -36,8 +44,8 @@
             "includePath": [
                 "E:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino",
                 "E:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\variants\\mega",
+                "D:\\Projects\\_tmp\\arduino_sketch_block\\libraries\\ArduinoSTL\\src",
                 "E:\\Program Files (x86)\\Arduino\\libraries\\Makeblock\\src",
-                "E:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\libraries\\SoftwareSerial\\src",
                 "e:\\program files (x86)\\arduino\\hardware\\tools\\avr\\lib\\gcc\\avr\\7.3.0\\include",
                 "e:\\program files (x86)\\arduino\\hardware\\tools\\avr\\lib\\gcc\\avr\\7.3.0\\include-fixed",
                 "e:\\program files (x86)\\arduino\\hardware\\tools\\avr\\avr\\include"

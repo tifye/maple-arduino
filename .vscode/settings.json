@@ -1,3 +1,8 @@
 {
-    "C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "Enabled",
+    "files.associations": {
+      "*.ejs": "html",
+      "bit": "cpp",
+      "vector": "cpp"
+    }
 }
