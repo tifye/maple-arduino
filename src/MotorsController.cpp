@@ -17,7 +17,7 @@ void MotorsController::setSpeed(int speed) {
 }
 
 void MotorsController::setLeftSpeed(int speed) {
-  motorsHandle.GetMotorEncoderLeft().setTarPWM(speed);
+  motorsHandle.GetMotorEncoderLeft().setTarPWM(-speed);
 }
 
 void MotorsController::setRightSpeed(int speed) {

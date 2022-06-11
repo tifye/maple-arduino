@@ -1,7 +1,7 @@
 #ifndef MotorsHandle_H
 #define MotorsHandle_H
 
-#include "MeAuriga.h"
+#include <MeAuriga.h>
 
 class MotorsHandle {
 private:

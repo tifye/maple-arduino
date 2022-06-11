@@ -1,7 +1,6 @@
 #ifndef MotorsController_H
 #define MotorsController_H
 
-#include <Arduino.h>
 #include "MonoBehaviour.h"
 #include "MotorsHandle.h"
 

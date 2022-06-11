@@ -9,8 +9,6 @@ public:
   MonoBehaviour() {
     MonoBehaviourManager::getInstance().RegisterMonoBehaviour(this);
   }
-
-private:
 };
 
 #endif
